@@ -80,7 +80,7 @@ body {
 
 /*----------------------------Header----------------------------*/
 .header {
-  padding: 24px 0;
+  padding: 25px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -124,7 +124,7 @@ body {
 
 .header-contacts {
   font-style: normal;
-  padding-left: 332px;
+  margin-left: 332px;
 }
 .header-contacts-list {
   display: flex;
