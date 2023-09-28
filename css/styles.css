@@ -109,6 +109,10 @@ body {
   padding-left: 76px;
 }
 .header-menu-item {
+  padding-right: 40px;
+}
+.header-menu-item:last-child {
+  padding-right: 0;
 }
 .header-menu-link {
   color: var(--color-text);
@@ -129,6 +133,10 @@ body {
   display: flex;
 }
 .header-contacts-item {
+  padding-right: 40px;
+}
+.header-contacts-item:last-child {
+  padding-right: 0;
 }
 .header-contacts-data {
   color: var(--color-text);
@@ -198,10 +206,13 @@ body {
 }
 .description-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+	justify-content: center;
+  margin: 0 -12px;
 }
 .description-item {
   max-width: 264px;
+  margin: 0 12px;
 }
 .description-subtitle {
   color: var(--color-sub-title);
@@ -223,8 +234,11 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -12px;
 }
 .team-item {
+  margin: 0 12px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
