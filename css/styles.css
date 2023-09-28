@@ -110,6 +110,7 @@ body {
   gap: 40px;
 }
 .header-menu-item {
+	padding: 24px 0;
 }
 .header-menu-link {
   color: var(--color-text);
@@ -129,6 +130,7 @@ body {
 }
 .header-contacts-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .header-contacts-item {
@@ -176,7 +178,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   height: 56px;
-  width: 169px;
+  min-width: 169px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
@@ -209,11 +211,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 -12px;
+  gap: 24px;
 }
 .description-item {
   max-width: 264px;
-  margin: 0 12px;
 }
 .description-subtitle {
   color: var(--color-sub-title);
