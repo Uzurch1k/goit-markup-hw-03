@@ -1,0 +1,214 @@
+/*----------------------------Null----------------------------*/
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/*----------------------------Variables----------------------------*/
+:root {
+  --color-sub-title: #2e2f42;
+  --color-text: #434455;
+  --color-logo: #4d5ae5;
+  --color-footer-tx: #f4f4fd;
+
+  --color-h-f: #404bbf;
+
+  --bgcolor-2e2f42: #2e2f42;
+  --bgcolor-f4f4fd: #f4f4fd;
+  --bgcolor-ffffff: #ffffff;
+}
+
+/*----------------------------Other----------------------------*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text);
+  background-color: #ffffff;
+}
+/*----------------------------General class----------------------------*/
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*----------------------------Header----------------------------*/
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+  color: var(--color-logo);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.header-logo-span {
+  color: #2e2f42;
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--color-h-f);
+}
+.header-contacts {
+  font-style: normal;
+}
+.header-contacts-list {
+}
+.header-contacts-item {
+}
+.header-contacts-data {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-contacts-data:hover,
+.header-contacts-data:focus {
+  color: var(--color-h-f);
+}
+
+/*---------------------------- Section 1 ----------------------------*/
+.fullscreen {
+  background-color: #2e2f42;
+}
+.fullscreen-title {
+  color: white;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.fullscreen-btn {
+  background-color: #4d5ae5;
+  color: white;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.fullscreen-btn:hover,
+.fullscreen-btn:focus {
+  background-color: var(--color-h-f);
+}
+
+/*---------------------------- Section 2 ----------------------------*/
+.description {
+}
+.description-title {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.description-list {
+}
+.description-item {
+}
+.description-subtitle {
+  color: var(--color-sub-title);
+}
+.description-text {
+  color: var(--color-text);
+}
+
+/*---------------------------- Section 3 ----------------------------*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  color: var(--color-sub-title);
+}
+.team-list {
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-subtitle {
+  color: var(--color-sub-title);
+}
+.team-text {
+  color: var(--color-text);
+}
+
+/*---------------------------- Section 4----------------------------*/
+.portfolio {
+}
+.portfolio-title {
+  color: var(--color-sub-title);
+}
+.portfolio-list {
+}
+.portfolio-subtitle {
+  color: var(--color-sub-title);
+}
+.portfolio-text {
+  color: var(--color-text);
+}
+
+/*---------------------------- Footer ----------------------------*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: var(--color-logo);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.footer-logo-span {
+  color: var(--color-footer-tx);
+}
+.footer-text {
+  color: var(--color-footer-tx);
+}
