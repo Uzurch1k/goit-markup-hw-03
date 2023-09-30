@@ -117,7 +117,7 @@ body {
   margin-right: 76px;
 }
 .header-logo-span {
-  color: #2e2f42;
+  color: var(--color-text);
 }
 .header-menu-list {
   display: flex;
