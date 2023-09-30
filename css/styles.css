@@ -29,6 +29,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*----------------------------Variables----------------------------*/
@@ -92,12 +94,13 @@ body {
 
 /*----------------------------Header----------------------------*/
 .header {
-  padding: 25px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
